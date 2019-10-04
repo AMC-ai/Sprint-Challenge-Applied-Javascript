@@ -27,11 +27,11 @@ function Header(hData) {
     temp.classList.add('temp');
 
     //text content for elements
-    console.log(hData)
+    // console.log(hData)
     date.textContent = hData.date;
     title.textContent = hData.title;
     temp.textContent = hData.temp;
-    console.log(header)
+    // console.log(header)
     //add component to DOM
     document.getElementsByClassName('header-container')[0].appendChild(header);
 }

@@ -25,15 +25,16 @@ axios
     .catch(error => {
         console.log("The data was not returned", error);
     });
-const topicTab = document.querySelector('span .title')
-function tabTopics(tData) {
-    tData.forEach(topic => {
-        const tab = document.createElement('div');
 
+function tabTopics(topicData) {
+    topicData.forEach(item => {
+        const tab = document.createElement('div');
+        tab.textContent = item;
         tab.classList.add('tab');
-        tab.textContent = topic;
-    })
-    return tab
-    // document.getElementsByClassName('title')[0].appendChild(tab);
+
+        document.getElementsByClassName('topics')[0].appendChild(tab);
+    });
+    // console.log(tab)
+
 }
-// topicTab.appendChild(topicTab(tData.topic));
+
