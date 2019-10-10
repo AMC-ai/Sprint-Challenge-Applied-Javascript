@@ -1,3 +1,4 @@
+amc ready for push/pull
 # Sprint-Challenge Applied Javascript - Lambda Times
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored the DOM and the concept of components. During this Sprint, you studied the DOM, DOM Events, and Components, as well as HTTP GET requests, and the axios library. In your challenge this week, you will demonstrate proficiency by creating an online Lambda newspaper called "Lambda Times."
@@ -30,20 +31,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    Document Object Model, is representation of html in a tree like structure. 
+
 2. What is an event?
+
+    is a user based interaction with the redered website
 
 3. What is an event listener?
 
+    is a js method used to handle events in an element 
+
 4. Why would we convert a NodeList into an Array?
+
+    bc nodelist are for the browser
 
 5. What is a component?
 
+    is reusable code
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+~~* [ ] Fork the project into your GitHub user account~~
+~~* [ ] Clone the forked project into a directory on your machine~~
+~~* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.~~
+~~* [ ] You are now ready to build this project with your preferred IDE~~
 
 ## Minimum Viable Product
 
